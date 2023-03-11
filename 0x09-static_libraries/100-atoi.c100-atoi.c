@@ -3,8 +3,10 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
+int _atoi(char *s)
 
-char *_memset(char *s, char b, unsigned int n)
 {
-    return memset(s, b, n);
+    return atoi(s);
 }
+
+
